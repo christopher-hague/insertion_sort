@@ -20,12 +20,7 @@ function insertionSort(arr) {
   return sortedArr
 }
 
-function testMocha() {
-  return "It's alive!!!"
-}
-
 exports._test = {
-  testMocha: testMocha,
   getMinVal: getMinVal,
   insertionSort: insertionSort
 }
